@@ -19249,3 +19249,349 @@ val sortedListWithSortedFunctioon = list.sorted
 2023.03.04 17:20:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
 2023.03.04 17:20:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
 2023.03.04 17:20:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:54:4: identifier expected but . found
+  ...
+   ^
+2023.03.04 17:26:26 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+2023.03.04 17:26:28 INFO  time: code lens generation in 3.38s
+2023.03.04 17:26:28 INFO  time: code lens generation in 1.26s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:54:4: identifier expected but . found
+  ...
+   ^
+2023.03.04 17:26:53 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:54:4: identifier expected but . found
+  ...
+   ^
+2023.03.04 17:27:00 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+2023.03.04 17:27:12 WARN  Using indexes to guess the definition of x
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:54:4: identifier expected but . found
+  ...
+   ^
+2023.03.04 17:27:16 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:51:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:52:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:52:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:25 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:47:6: 
+Not found: xs
+sort(xs)(Ordering.Int)
+     ^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:48:6: 
+Not found: strings
+sort(strings)(Ordering.String)
+     ^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:55:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:56:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:56:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:36 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:52 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:52 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:52 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:27:53 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+Mar 04, 2023 5:27:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6722
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:28:11 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:28:55 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:28:55 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:58:44: 
+Found:    (MdocApp.this.list : List[Int])
+Required: List[A]
+    if (list.isEmpty || list.tail.isEmpty) list
+                                           ^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:33: 
+Found:    Int
+Required: A
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                ^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    List[Int]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:29:00 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:71: 
+Found:    List[A @uncheckedVariance]
+Required: List[Int]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                                      ^^^^^^^^^
+2023.03.04 17:29:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:71: 
+Found:    List[A @uncheckedVariance]
+Required: List[Int]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                                      ^^^^^^^^^
+2023.03.04 17:29:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:71: 
+Found:    List[A @uncheckedVariance]
+Required: List[Int]
+    else insertSorted(element = list.head, sortedList = insertionSort(list.tail))
+                                                                      ^^^^^^^^^
+2023.03.04 17:30:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:30:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:30:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:30:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:44: 
+method insertSorted: (element: A, sortedList: List[A]): List[A] does not have a parameter list
+    else insertSorted(element = list.head, list = sort(list.tail))
+                                           ^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:30:29 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:44: 
+method insertSorted: (element: A, sortedList: List[A]): List[A] does not have a parameter list
+    else insertSorted(element = list.head, list = sort(list.tail))
+                                           ^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:30:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:44: 
+method insertSorted: (element: A, sortedList: List[A]): List[A] does not have a parameter list
+    else insertSorted(element = list.head, list = sort(list.tail))
+                                           ^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 17:30:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:30:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:30:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:73: 
+Found:    (MdocApp.this.Ordering.Int : Ordering[Int])
+Required: Ordering[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(Ordering.Int))
+                                                                        ^^^^^^^^^^^^
+2023.03.04 17:31:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:73: 
+Found:    (MdocApp.this.Ordering.Int : Ordering[Int])
+Required: Ordering[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(Ordering.Int))
+                                                                        ^^^^^^^^^^^^
+2023.03.04 17:31:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:73: 
+Found:    (MdocApp.this.Ordering.Int : Ordering[Int])
+Required: Ordering[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(Ordering.Int))
+                                                                        ^^^^^^^^^^^^
+2023.03.04 17:31:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:73: 
+value A is not a member of object MdocApp.this.Ordering
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(Ordering.A))
+                                                                        ^^^^^^^^^^
+2023.03.04 17:32:03 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:73: 
+value A is not a member of object MdocApp.this.Ordering
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(Ordering.A))
+                                                                        ^^^^^^^^^^
+2023.03.04 17:32:03 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:32:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:32:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:59:57: 
+Found:    Ordering[A] => List[A]
+Required: List[A]
+    else insertSorted(element = list.head, sortedList = sort(list.tail))
+                                                        ^^^^^^^^^^^^^^^
+2023.03.04 17:32:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 17:32:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 17:32:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
+2023.03.04 17:33:02 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:33:02 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.22s
+2023.03.04 17:33:02 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 17:33:02 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 17:33:12 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:33:12 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
+2023.03.04 17:33:12 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:33:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:33:15 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:33:15 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:33:16 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:33:16 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:35:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:35:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 17:36:06 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:36:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 17:36:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:63:41: 
+value String is not a member of object scala.math.Ordered - did you mean Ordered.toString?
+sort(List("apple", "orange", "banana"))(Ordered.String)
+                                        ^^^^^^^^^^^^^^
+2023.03.04 17:36:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:63:41: 
+value String is not a member of object scala.math.Ordered - did you mean Ordered.toString?
+sort(List("apple", "orange", "banana"))(Ordered.String)
+                                        ^^^^^^^^^^^^^^
+2023.03.04 17:36:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:63:41: 
+value String is not a member of object scala.math.Ordered - did you mean Ordered.toString?
+sort(List("apple", "orange", "banana"))(Ordered.String)
+                                        ^^^^^^^^^^^^^^
+2023.03.04 17:36:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+2023.03.04 17:36:31 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 17:36:31 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 17:36:31 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:36:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 17:36:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 17:36:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 17:36:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:50 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:50 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:36:50 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:37:06 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s

@@ -39,3 +39,25 @@ val sortedList = list.sortWith(lt = (a, b) => a < b)
 val sortedListAnonymous = list.sortWith(_ < _)
 val sortedListResevese = list.sortWith(_ > _)
 val sortedListWithSortedFunctioon = list.sorted
+
+
+
+import scala.math.Ordering
+
+// object Ordering {
+//   val Int = new Ordering[Int] {
+//     def compare(x: Int, y: Int) = if (x > y) 1 else if (x < y) -1 else 0
+//   }
+// }
+
+def sort[A](list: List[A])(ord: Ordering[A]): List[A] = {
+    def insertSorted(element: A, sortedList: List[A]): List[A] = 
+        if (sortedList.isEmpty || ord.lt(element, sortedList.head)) element :: sortedList
+        else sortedList.head :: insertSorted(element = element, sortedList = sortedList.tail)
+
+    if (list.isEmpty || list.tail.isEmpty) list
+    else insertSorted(element = list.head, sortedList = sort(list.tail)(ord))
+}
+
+sort(List(1,4, 3))(Ordering.Int)
+sort(List( "orange", "banana","apple"))(Ordering.String)
