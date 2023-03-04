@@ -50,3 +50,15 @@ def sieve(s: LazyList[Int]): LazyList[Int] =
 val primes = sieve(from(2))
 
 primes.take(100).toList
+
+
+
+def sqrtSeq(x:Double) : LazyList[Double] = 
+    def improve(guess: Double) = (guess + x / guess)/ 2
+    lazy val guesses: LazyList[Double] = 1 #:: guesses.map(improve)
+    guesses
+
+def isGoodEnough(guess: Double, x: Double) = 
+    ((guess * guess - x) / x).abs < 0.0001
+
+sqrtSeq(2).filter(isGoodEnough(_, 2)).head

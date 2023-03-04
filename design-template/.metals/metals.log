@@ -18015,3 +18015,1237 @@ A pure expression does nothing in statement position; you may be omitting necess
 2023.02.23 19:17:19 INFO  shutting down Metals
 2023.02.23 19:17:19 INFO  Shut down connection with build server.
 2023.02.23 19:17:19 INFO  Shut down connection with build server.
+2023.02.23 19:39:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/lsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.23 19:39:37 INFO  logging to file /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/metals.log
+2023.02.23 19:39:37 INFO  Started: Metals version 0.11.10 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.23 19:39:38 INFO  time: initialize in 1.02s
+2023.02.23 19:39:38 INFO  Attempting to connect to the build server...
+2023.02.23 19:39:38 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.23 19:39:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 19:39:39 INFO  Attempting to connect to the build server...
+2023.02.23 19:39:39 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.23 19:39:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 19:39:39 INFO  time: Connected to build server in 0.39s
+2023.02.23 19:39:39 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 19:39:40 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/build.sbt. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.23 19:39:40 INFO  time: code lens generation in 1.53s
+2023.02.23 19:39:41 INFO  running '/usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/6t/49gw0c3j72310rdvcvhmks700000gn/T/metals7071610781652704832/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.02.23 19:39:42 INFO  time: indexed workspace in 1.72s
+2023.02.23 19:39:43 INFO  [info] welcome to sbt 1.8.2 (Homebrew Java 1.8.0_362)
+2023.02.23 19:39:48 INFO  [info] loading settings for project design-template-build-build from metals.sbt ...
+2023.02.23 19:39:49 INFO  time: code lens generation in 3.54s
+2023.02.23 19:39:48 INFO  [info] loading project definition from /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/project
+2023.02.23 19:39:52 INFO  [info] loading settings for project design-template-build from metals.sbt ...
+2023.02.23 19:39:52 INFO  [info] loading project definition from /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project
+2023.02.23 19:39:55 INFO  [success] Generated .bloop/design-template-build.json
+2023.02.23 19:39:55 INFO  [warn] Removed stale /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.bloop/hello-world-template-build.json
+2023.02.23 19:39:55 INFO  [success] Total time: 2 s, completed Feb 23, 2023 7:39:55 PM
+2023.02.23 19:39:57 INFO  [info] loading settings for project design-template from build.sbt ...
+2023.02.23 19:39:57 INFO  [info] set current project to hello-world (in build file:/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/)
+2023.02.23 19:39:57 INFO  [success] Generated .bloop/design-template.json
+2023.02.23 19:39:57 INFO  [success] Generated .bloop/design-template-test.json
+2023.02.23 19:39:57 INFO  [warn] Removed stale /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.bloop/hello-world-template.json
+2023.02.23 19:39:57 INFO  [warn] Removed stale /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.bloop/hello-world-template-test.json
+2023.02.23 19:39:57 INFO  [success] Total time: 0 s, completed Feb 23, 2023 7:39:58 PM
+2023.02.23 19:39:58 INFO  time: ran 'sbt bloopInstall' in 16s
+2023.02.23 19:39:58 INFO  Disconnecting from Bloop session...
+2023.02.23 19:39:58 INFO  Shut down connection with build server.
+2023.02.23 19:39:58 INFO  Shut down connection with build server.
+2023.02.23 19:39:58 INFO  Attempting to connect to the build server...
+2023.02.23 19:39:58 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.23 19:39:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 19:39:58 INFO  Attempting to connect to the build server...
+2023.02.23 19:39:58 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.23 19:39:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.23 19:39:58 INFO  time: Connected to build server in 77ms
+2023.02.23 19:39:58 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.23 19:39:58 INFO  time: indexed workspace in 0.8s
+2023.02.24 00:51:02 INFO  shutting down Metals
+2023.02.24 00:51:02 INFO  Shut down connection with build server.
+2023.02.24 00:51:02 INFO  Shut down connection with build server.
+2023.02.24 22:28:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/lsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.24 22:28:17 INFO  logging to file /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/metals.log
+2023.02.24 22:28:17 INFO  Started: Metals version 0.11.10 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.24 22:28:18 INFO  time: initialize in 1.37s
+2023.02.24 22:28:18 INFO  Attempting to connect to the build server...
+2023.02.24 22:28:18 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.24 22:28:18 INFO  skipping build import with status 'Installed'
+2023.02.24 22:28:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.24 22:28:23 INFO  Attempting to connect to the build server...
+2023.02.24 22:28:23 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.24 22:28:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.24 22:28:23 INFO  time: Connected to build server in 5.45s
+2023.02.24 22:28:23 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.24 22:28:24 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/build.sbt. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.24 22:28:24 INFO  time: code lens generation in 5.86s
+2023.02.24 22:28:25 INFO  time: Imported build in 0.26s
+2023.02.24 22:28:26 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/forLoop.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.24 22:28:27 INFO  time: code lens generation in 5.79s
+2023.02.24 22:28:27 INFO  time: code lens generation in 8.13s
+2023.02.24 22:28:28 INFO  time: code lens generation in 1.67s
+2023.02.24 22:28:28 INFO  time: code lens generation in 2.32s
+2023.02.24 22:28:28 INFO  time: code lens generation in 3.36s
+2023.02.24 22:28:31 INFO  time: indexed workspace in 5.7s
+2023.02.24 22:34:41 INFO  compiling design-template (1 scala source)
+2023.02.24 22:34:44 INFO  time: compiled design-template in 3.26s
+2023.02.24 22:34:46 INFO  time: code lens generation in 1.15s
+2023.02.24 22:34:51 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 6.2s
+2023.02.24 22:34:52 INFO  time: evaluated worksheet 'intsets.worksheet.sc' in 1.06s
+2023.02.24 22:35:02 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.62s
+2023.02.24 22:35:33 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.41s
+2023.02.24 22:35:40 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.39s
+2023.02.24 22:35:41 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.34s
+2023.02.24 22:35:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.38s
+2023.02.24 22:35:49 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.28s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (x : Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => x)
+               ^
+2023.02.24 22:38:08 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:18: 
+Found:    (1 : Int)
+Required: String
+a.flatMap(x => x+1)
+                 ^
+2023.02.24 22:38:12 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => (1, x))
+               ^^^^^^
+2023.02.24 22:38:26 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => x^2)
+               ^^^
+2023.02.24 22:38:40 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => x^2)
+               ^^^
+2023.02.24 22:38:40 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => x*2)
+               ^^^
+2023.02.24 22:38:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.16s
+2023.02.24 22:38:52 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.3s
+2023.02.24 22:38:52 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.29s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:1: 
+value flatmap is not a member of List[Int] - did you mean a.flatMap?
+a.flatmap(x => x*2)
+^^^^^^^^^
+2023.02.24 22:39:04 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:1: 
+value flatmap is not a member of List[Int] - did you mean a.flatMap?
+a.flatmap(x => x*2)
+^^^^^^^^^
+2023.02.24 22:39:04 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => x*2)
+               ^^^
+2023.02.24 22:39:08 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:11: 
+Wrong number of parameters, expected: 1
+a.flatMap((x, y) => x+y)
+          ^^^^^^^^^^^^^
+2023.02.24 22:39:20 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.18s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:11: 
+Wrong number of parameters, expected: 1
+a.flatMap((x, y) => x+y)
+          ^^^^^^^^^^^^^
+2023.02.24 22:39:20 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:18: 
+Not found: y
+a.flatMap(x => x+y)
+                 ^
+2023.02.24 22:39:33 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:18: 
+Not found: y
+a.flatMap(x => x+y)
+                 ^
+2023.02.24 22:39:33 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:18: 
+Found:    (1 : Int)
+Required: String
+a.flatMap(x => x+1)
+                 ^
+2023.02.24 22:39:36 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:18: 
+Found:    (1 : Int)
+Required: String
+a.flatMap(x => x+1)
+                 ^
+2023.02.24 22:39:36 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (x : Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => x)
+               ^
+2023.02.24 22:39:50 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (x : Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => x)
+               ^
+2023.02.24 22:42:50 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => f(x))
+               ^^^^
+2023.02.24 22:42:59 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => f(x))
+               ^^^^
+2023.02.24 22:42:59 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => f(x))
+               ^^^^
+2023.02.24 22:43:00 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => f(x))
+               ^^^^
+2023.02.24 22:43:00 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:5:16: 
+Found:    (Int, Int)
+Required: IterableOnce[Nothing]
+a.flatMap(x => f(x))
+               ^^^^
+2023.02.24 22:43:10 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.13s
+2023.02.24 22:43:18 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+2023.02.24 22:43:34 INFO  time: evaluated worksheet 'intsets.worksheet.sc' in 0.52s
+2023.02.24 22:43:36 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.24s
+2023.02.24 22:43:43 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+2023.02.24 22:43:43 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.22s
+2023.02.24 22:43:44 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+2023.02.24 22:43:43 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.2s
+2023.02.24 22:43:43 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.2s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.22s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.19s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.21s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.22s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.21s
+2023.02.24 22:43:46 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.2s
+2023.02.24 22:43:46 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.22s
+2023.02.24 22:43:46 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.19s
+2023.02.24 22:43:45 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.18s
+2023.02.24 22:43:47 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+2023.02.24 22:43:47 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.23s
+2023.02.24 22:43:47 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.2s
+2023.02.24 22:43:47 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.19s
+2023.02.24 22:43:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.17s
+2023.02.24 22:43:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.17s
+2023.02.24 22:43:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.18s
+2023.02.24 22:43:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.16s
+2023.02.24 22:43:48 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.16s
+2023.02.24 22:44:23 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.2s
+2023.02.24 22:44:23 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.16s
+2023.02.24 22:54:02 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.21s
+2023.02.24 22:54:02 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.16s
+2023.02.24 22:54:09 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.18s
+2023.02.24 22:54:19 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.19s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:10:12: 
+value abs is not a member of object Int
+a.map(x => Int.abs(x))
+           ^^^^^^^
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:9:5: 
+Double definition:
+val a: List[Int] in class MdocApp at line 7 and
+val a: List[Int] in class MdocApp at line 28
+
+val a = List(1,-1, -5)
+    ^
+2023.02.24 22:56:20 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:11:12: illegal start of simple expression
+a.map(x => 
+           ^
+2023.02.24 22:56:56 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:11:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => abs(x))
+               ^^^^^^
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:10:5: 
+Double definition:
+val a: List[Int] in class MdocApp at line 7 and
+val a: List[Int] in class MdocApp at line 31
+
+val a = List(1,-1, -5)
+    ^
+2023.02.24 22:57:11 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:11:16: 
+Found:    Int
+Required: IterableOnce[Nothing]
+a.flatMap(x => abs(x))
+               ^^^^^^
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:10:5: 
+Double definition:
+val a: List[Int] in class MdocApp at line 7 and
+val a: List[Int] in class MdocApp at line 31
+
+val a = List(1,-1, -5)
+    ^
+2023.02.24 22:57:11 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/listsExamples.worksheet.sc:10:5: 
+Double definition:
+val a: List[Int] in class MdocApp at line 7 and
+val a: List[Int] in class MdocApp at line 31
+
+val a = List(1,-1, -5)
+    ^
+2023.02.24 22:57:19 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.11s
+2023.02.24 22:57:31 INFO  time: evaluated worksheet 'listsExamples.worksheet.sc' in 0.25s
+2023.02.24 23:59:19 INFO  shutting down Metals
+2023.02.24 23:59:19 INFO  Shut down connection with build server.
+2023.02.24 23:59:19 INFO  Shut down connection with build server.
+2023.02.25 21:24:02 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/lsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.25 21:24:03 INFO  logging to file /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/metals.log
+2023.02.25 21:24:03 INFO  Started: Metals version 0.11.10 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.25 21:24:04 INFO  time: initialize in 1.51s
+2023.02.25 21:24:05 INFO  Attempting to connect to the build server...
+2023.02.25 21:24:05 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.25 21:24:05 INFO  skipping build import with status 'Installed'
+Feb 25, 2023 9:24:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.02.25 21:24:10 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/listsExamples.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.25 21:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.25 21:24:11 INFO  Attempting to connect to the build server...
+2023.02.25 21:24:11 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.25 21:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.25 21:24:11 INFO  time: Connected to build server in 6.65s
+2023.02.25 21:24:11 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.25 21:24:12 INFO  time: Imported build in 0.17s
+2023.02.25 21:24:13 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/lazyLists.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.25 21:24:14 INFO  time: code lens generation in 8.54s
+2023.02.25 21:24:15 INFO  time: code lens generation in 4.6s
+2023.02.25 21:24:15 INFO  time: code lens generation in 5.2s
+2023.02.25 21:24:15 INFO  time: code lens generation in 9.66s
+2023.02.25 21:24:15 INFO  time: code lens generation in 9.66s
+2023.02.25 21:24:17 INFO  time: indexed workspace in 5.46s
+2023.02.25 21:24:28 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 9.76s
+2023.02.25 21:24:29 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 1.45s
+[31merror[39m: src/main/scala/lazyLists.worksheet.sc:58:68: 
+Found:    Unit
+Required: LazyList[Double]
+    lazy val guesses: LazyList[Double] = 1 #:: guesses.map(improve)
+                                                                   ^
+2023.02.25 21:29:44 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.48s
+[31merror[39m: src/main/scala/lazyLists.worksheet.sc:58:68: 
+Found:    Unit
+Required: LazyList[Double]
+    lazy val guesses: LazyList[Double] = 1 #:: guesses.map(improve)
+                                                                   ^
+2023.02.25 21:29:44 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.33s
+[31merror[39m: src/main/scala/lazyLists.worksheet.sc:58:68: 
+Found:    Unit
+Required: LazyList[Double]
+    lazy val guesses: LazyList[Double] = 1 #:: guesses.map(improve)
+                                                                   ^
+2023.02.25 21:29:44 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.26s
+2023.02.25 21:29:49 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.77s
+2023.02.25 21:29:49 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.6s
+2023.02.25 21:29:50 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.5s
+2023.02.25 21:29:50 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.5s
+Feb 25, 2023 9:33:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 549
+2023.02.25 21:34:17 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.48s
+2023.02.25 21:34:18 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.4s
+2023.02.25 21:34:42 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.44s
+2023.02.25 21:34:42 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.4s
+2023.02.25 21:34:45 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.41s
+2023.02.25 21:35:06 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.41s
+2023.02.25 21:35:06 INFO  time: evaluated worksheet 'lazyLists.worksheet.sc' in 0.38s
+2023.02.25 21:55:52 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.34s
+Feb 25, 2023 9:55:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:88)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:101)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:49)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:49)
+
+2023.02.25 21:56:24 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.12s
+Feb 25, 2023 9:57:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1053
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:12:14: 
+Not found: Empty
+        case Empty(glass) => state.updated(glass, 0)
+             ^^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:12:44: 
+Found:    (glass : Any)
+Required: Int
+        case Empty(glass) => state.updated(glass, 0)
+                                           ^^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:13:14: 
+Not found: Fill
+        case Fill(glass) => state.updated(glass, full(glass))
+             ^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:13:43: 
+Found:    (glass : Any)
+Required: Int
+        case Fill(glass) => state.updated(glass, full(glass))
+                                          ^^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:13:55: 
+Found:    (glass : Any)
+Required: Int
+        case Fill(glass) => state.updated(glass, full(glass))
+                                                      ^^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:14:14: 
+Not found: Pour
+        case Pour(from: Glass, to: Glass) => 
+             ^^^^
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:15:64: 
+Found:    Unit
+Required: MdocApp.this.State
+            val amount = state(from) min (full(to) - state(to))
+                                                               ^
+2023.02.25 22:00:43 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.25s
+2023.02.25 22:03:28 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.35s
+2023.02.25 22:03:28 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.24s
+2023.02.25 22:05:08 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.26s
+2023.02.25 22:05:08 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:05:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:05:15 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.24s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:22:49: ; expected but ) found
+        ++ (for g <- glasses yield Move.Fill(g)))
+                                                ^
+2023.02.25 22:07:24 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if g1 != g2 yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:16 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if g1 != g2 yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:16 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if g1 != g2 yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:16 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:08:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:44: <- expected but ; found
+        ++ (for g1 <- glasses; g2 < glasses; if(g1 != g2) yield Move.Pour(g1, g2))
+                                           ^
+2023.02.25 22:09:04 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:44: <- expected but ; found
+        ++ (for g1 <- glasses; g2 < glasses; if(g1 != g2) yield Move.Pour(g1, g2))
+                                           ^
+2023.02.25 22:09:04 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:09:12 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.63s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:09:12 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 93ms
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:09:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:23:45: <- expected but if found
+        ++ (for g1 <- glasses; g2 < glasses if(g1 != g2) yield Move.Pour(g1, g2))
+                                            ^^
+2023.02.25 22:09:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.1s
+2023.02.25 22:09:34 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.25s
+2023.02.25 22:09:34 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:09:34 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.2s
+2023.02.25 22:09:40 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:11:55 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.23s
+2023.02.25 22:11:55 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.24s
+2023.02.25 22:11:55 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:11:55 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.21s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:29:9: 
+misaligned end marker
+        end Path
+        ^^^^^^^^
+2023.02.25 22:12:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 93ms
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:29:9: 
+misaligned end marker
+        end Path
+        ^^^^^^^^
+2023.02.25 22:12:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 91ms
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:29:9: 
+misaligned end marker
+        end Path
+        ^^^^^^^^
+2023.02.25 22:12:13 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.1s
+2023.02.25 22:12:17 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.23s
+2023.02.25 22:12:17 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.23s
+2023.02.25 22:12:18 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.19s
+2023.02.25 22:13:07 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.2s
+2023.02.25 22:13:57 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.18s
+2023.02.25 22:14:10 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.2s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:38:30: illegal start of simple expression
+                move <- moves
+                             ^
+2023.02.25 22:16:33 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.1s
+Feb 25, 2023 10:16:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:88)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:101)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:49)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:49)
+
+Feb 25, 2023 10:16:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: NoDenotation.owner
+java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2511)
+	at scala.meta.internal.pc.SignatureHelpProvider$.isValid(SignatureHelpProvider.scala:88)
+	at scala.meta.internal.pc.SignatureHelpProvider$.notCurrentApply(SignatureHelpProvider.scala:101)
+	at scala.meta.internal.pc.SignatureHelpProvider$.$anonfun$1(SignatureHelpProvider.scala:49)
+	at scala.collection.StrictOptimizedLinearSeqOps.loop$3(LinearSeq.scala:280)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile(LinearSeq.scala:282)
+	at scala.collection.StrictOptimizedLinearSeqOps.dropWhile$(LinearSeq.scala:278)
+	at scala.collection.immutable.List.dropWhile(List.scala:79)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:49)
+
+2023.02.25 22:17:49 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.25s
+[31merror[39m: src/main/scala/waterpouring.worksheet.sc:44:49: illegal start of simple expression
+    def solutions(target: Int): LazyList[Path] = 
+                                                ^
+2023.02.25 22:18:45 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 99ms
+Feb 25, 2023 10:18:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: sourcecode/Name
+java.lang.NoClassDefFoundError: sourcecode/Name
+	at scala.meta.internal.tokenizers.XmlParser$Xml$.UnpStart(XmlParser.scala:48)
+	at scala.meta.internal.tokenizers.XmlParser$Xml$.Unparsed(XmlParser.scala:47)
+	at scala.meta.internal.tokenizers.XmlParser$Xml$.XmlContent(XmlParser.scala:43)
+	at scala.meta.internal.tokenizers.XmlParser.$anonfun$XmlExpr$1(XmlParser.scala:24)
+	at scala.meta.internal.fastparse.internal.RepImpls$.rec$4(RepImpls.scala:358)
+	at scala.meta.internal.fastparse.internal.RepImpls$.rep$extension(RepImpls.scala:398)
+	at scala.meta.internal.fastparse.package$ByNameOps$.rep$extension(package.scala:271)
+	at scala.meta.internal.tokenizers.XmlParser.XmlExpr(XmlParser.scala:24)
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$getXml$2(LegacyScanner.scala:967)
+	at scala.meta.internal.fastparse.package$.parseInputRaw(package.scala:71)
+	at scala.meta.internal.fastparse.Parsed$Extra.trace(Parsed.scala:141)
+	at scala.meta.internal.fastparse.Parsed$Extra.traced(Parsed.scala:120)
+	at scala.meta.internal.tokenizers.LegacyScanner.getXml(LegacyScanner.scala:971)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchLT$1(LegacyScanner.scala:329)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:245)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1046)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.pc.ScriptFirstImportPosition$.tokenize(ScriptFirstImportPosition.scala:105)
+	at scala.meta.internal.pc.ScriptFirstImportPosition$.scalaCliScStartOffset(ScriptFirstImportPosition.scala:44)
+	at scala.meta.internal.pc.AutoImports$.forScript$1$$anonfun$1(AutoImports.scala:345)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.AutoImports$.forScript$1(AutoImports.scala:350)
+	at scala.meta.internal.pc.AutoImports$.autoImportPosition(AutoImports.scala:364)
+	at scala.meta.internal.pc.AutoImports$.generator(AutoImports.scala:102)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:71)
+Caused by: java.lang.ClassNotFoundException: sourcecode.Name
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 32 more
+
+2023.02.25 22:19:48 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.24s
+2023.02.25 22:19:48 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.22s
+2023.02.25 22:20:17 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.23s
+2023.02.25 22:20:17 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.26s
+2023.02.25 22:20:17 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.2s
+2023.02.25 22:21:48 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.25s
+2023.02.25 22:22:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.28s
+2023.02.25 22:22:41 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.26s
+2023.02.25 22:22:54 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.27s
+2023.02.25 22:22:54 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.27s
+2023.02.25 22:22:59 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.27s
+2023.02.25 22:22:59 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.29s
+2023.02.25 22:22:59 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.26s
+2023.02.25 22:23:00 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 0.24s
+2023.02.25 23:10:20 INFO  shutting down Metals
+2023.02.25 23:10:21 INFO  Shut down connection with build server.
+2023.02.25 23:10:21 INFO  Shut down connection with build server.
+2023.02.28 20:40:08 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/lsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.28 20:40:09 INFO  logging to file /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/metals.log
+2023.02.28 20:40:09 INFO  Started: Metals version 0.11.10 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.28 20:40:12 INFO  time: initialize in 2.64s
+2023.02.28 20:40:12 INFO  Attempting to connect to the build server...
+2023.02.28 20:40:12 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.28 20:40:12 INFO  skipping build import with status 'Installed'
+2023.02.28 20:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.28 20:40:19 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/waterpouring.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.02.28 20:40:18 INFO  Attempting to connect to the build server...
+2023.02.28 20:40:18 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.02.28 20:40:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.02.28 20:40:18 INFO  time: Connected to build server in 6.56s
+2023.02.28 20:40:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.02.28 20:40:19 INFO  time: code lens generation in 6.8s
+2023.02.28 20:40:19 INFO  time: Imported build in 0.26s
+2023.02.28 20:40:23 INFO  time: indexed workspace in 3.58s
+2023.02.28 20:40:32 INFO  time: code lens generation in 2.17s
+2023.03.01 10:08:46 INFO  shutting down Metals
+2023.03.01 10:08:46 INFO  Shut down connection with build server.
+2023.03.01 10:08:46 INFO  Shut down connection with build server.
+2023.03.04 11:20:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/lsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.03.04 11:20:37 INFO  logging to file /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/metals.log
+2023.03.04 11:20:37 INFO  Started: Metals version 0.11.10 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.04 11:20:39 INFO  time: initialize in 2.03s
+2023.03.04 11:20:40 INFO  Attempting to connect to the build server...
+2023.03.04 11:20:40 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.03.04 11:20:40 INFO  skipping build import with status 'Installed'
+2023.03.04 11:20:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.04 11:20:46 INFO  Attempting to connect to the build server...
+2023.03.04 11:20:46 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.03.04 11:20:47 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/waterpouring.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.1
+2023.03.04 11:20:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.04 11:20:46 INFO  time: Connected to build server in 6.36s
+2023.03.04 11:20:46 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.04 11:20:47 INFO  time: Imported build in 0.21s
+2023.03.04 11:20:52 INFO  time: code lens generation in 11s
+2023.03.04 11:20:54 INFO  time: indexed workspace in 7.25s
+2023.03.04 11:21:05 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 9.47s
+2023.03.04 11:21:07 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 1.31s
+2023.03.04 15:41:16 INFO  shutting down Metals
+2023.03.04 15:41:17 INFO  Shut down connection with build server.
+2023.03.04 15:41:17 INFO  Shut down connection with build server.
+2023.03.04 15:47:58 INFO  Started: Metals version 0.11.11 in workspace '/Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template' for client Visual Studio Code 1.74.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/krishna/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.04 15:47:58 INFO  time: initialize in 0.47s
+2023.03.04 15:47:58 INFO  Attempting to connect to the build server...
+2023.03.04 15:47:58 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.03.04 15:47:58 INFO  skipping build import with status 'Installed'
+2023.03.04 15:47:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.04 15:47:59 INFO  Attempting to connect to the build server...
+2023.03.04 15:47:59 INFO  Bloop uses /usr/local/Cellar/openjdk@8/1.8.0+362/libexec/openjdk.jdk/Contents/Home defined at /Users/krishna/.bloop/bloop.json
+2023.03.04 15:47:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/project/.metals/bsp.trace.json or /Users/krishna/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.03.04 15:47:59 INFO  time: Connected to build server in 0.61s
+2023.03.04 15:47:59 INFO  Connected to Build server: Bloop v1.5.6
+2023.03.04 15:48:14 INFO  no build target found for /Users/krishna/Library/CloudStorage/OneDrive-Personal/krishna/learningScala/coderepo/learningScala/scala3examples/design-template/src/main/scala/waterpouring.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.04 15:48:14 INFO  time: code lens generation in 15s
+2023.03.04 15:48:19 INFO  time: indexed workspace in 5.55s
+2023.03.04 15:48:19 INFO  compiling design-template (1 scala source)
+2023.03.04 15:48:24 INFO  time: compiled design-template in 4.52s
+2023.03.04 15:48:31 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 7.06s
+2023.03.04 15:48:33 INFO  time: evaluated worksheet 'waterpouring.worksheet.sc' in 1.4s
+2023.03.04 16:10:06 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.5s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:2:5: 
+Found:    Unit
+Required: List[Int]
+Maybe you are missing an else part for the conditional?
+    if (sortedList.isEmpty || element < sortedList.head) element :: sortedList
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:12:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:2:5: 
+Found:    Unit
+Required: List[Int]
+Maybe you are missing an else part for the conditional?
+    if (sortedList.isEmpty || element < sortedList.head) element :: sortedList
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:12:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:2:5: 
+Found:    Unit
+Required: List[Int]
+Maybe you are missing an else part for the conditional?
+    if (sortedList.isEmpty || element < sortedList.head) element :: sortedList
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:12:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:2:5: 
+Found:    Unit
+Required: List[Int]
+Maybe you are missing an else part for the conditional?
+    if (sortedList.isEmpty || element < sortedList.head) element :: sortedList
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:12:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+2023.03.04 16:12:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 16:12:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 16:12:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 16:12:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 16:12:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.27s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:17: 
+Too many type arguments for scala.collection.IterableFactory.apply[A]
+expected: [A]
+actual:   [1.type, 5.type, 9.type]
+insertSorted(3, List[1,5,9])
+                ^^^^^^^^^^^
+2023.03.04 16:13:20 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:17: 
+Too many type arguments for scala.collection.IterableFactory.apply[A]
+expected: [A]
+actual:   [1.type, 5.type, 9.type]
+insertSorted(3, List[1,5,9])
+                ^^^^^^^^^^^
+2023.03.04 16:13:21 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:17: 
+Too many type arguments for scala.collection.IterableFactory.apply[A]
+expected: [A]
+actual:   [1.type, 5.type, 9.type]
+insertSorted(3, List[1,5,9])
+                ^^^^^^^^^^^
+2023.03.04 16:13:21 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:17: 
+Too many type arguments for scala.collection.IterableFactory.apply[A]
+expected: [A]
+actual:   [1.type, 5.type, 9.type]
+insertSorted(3, List[1,5,9])
+                ^^^^^^^^^^^
+2023.03.04 16:13:21 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:36 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:36 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:5:18: identifier or `_' expected
+insertSorted(3, [1,5,9])
+                 ^
+2023.03.04 16:13:36 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:13:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 16:13:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.27s
+2023.03.04 16:13:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.21s
+2023.03.04 16:13:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.22s
+2023.03.04 16:13:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:14:10 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:14:10 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 16:14:10 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:14:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:14:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:14:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:14:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:14:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:14:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:15:11 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:15:11 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:15:12 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:15:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:15:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:15:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:16:1: illegal start of simple expression
+}
+^
+2023.03.04 16:17:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:16:1: illegal start of simple expression
+}
+^
+2023.03.04 16:17:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+2023.03.04 16:17:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:17:49 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:17:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:16: identifier or `_' expected
+insertionSort([1,4,2])
+               ^
+2023.03.04 16:23:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 92ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:16: identifier or `_' expected
+insertionSort([1,4,2])
+               ^
+2023.03.04 16:23:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:16: identifier or `_' expected
+insertionSort([1,4,2])
+               ^
+2023.03.04 16:23:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 98ms
+2023.03.04 16:23:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:23:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 16:23:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:23:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:23:29 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:23:29 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 16:23:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 16:23:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:23:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:23:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:15:35: 
+Not found: element
+        if (sortedList.isEmpty || element <= sortedList.head) element :: sortedList
+                                  ^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:15:63: 
+Not found: element
+        if (sortedList.isEmpty || element <= sortedList.head) element :: sortedList
+                                                              ^^^^^^^
+2023.03.04 16:25:15 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 87ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:15:35: 
+Not found: element
+        if (sortedList.isEmpty || element <= sortedList.head) element :: sortedList
+                                  ^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:15:63: 
+Not found: element
+        if (sortedList.isEmpty || element <= sortedList.head) element :: sortedList
+                                                              ^^^^^^^
+2023.03.04 16:25:15 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 98ms
+2023.03.04 16:26:06 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:26:06 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:26:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:26:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:26:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:27:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:27:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:27:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:27:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:27:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:27:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:27:38 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:27:38 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:27:41 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:27:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:27:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:27:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+2023.03.04 16:28:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:28:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:28:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:29:10 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:29:12 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:29:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:29:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:29:20 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:29:20 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:29:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:29:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:29:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:29:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:29:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:16:65: 
+method insertSorted: (element: Int, sortedList: List[Int]): List[Int] does not have a parameter list
+        else sortedList.head :: insertSorted(element = element, list = list.tail)
+                                                                ^^^^^^^^^^^^^^^^
+2023.03.04 16:29:53 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 86ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:16:65: 
+method insertSorted: (element: Int, sortedList: List[Int]): List[Int] does not have a parameter list
+        else sortedList.head :: insertSorted(element = element, list = list.tail)
+                                                                ^^^^^^^^^^^^^^^^
+2023.03.04 16:29:59 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 84ms
+2023.03.04 16:30:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:30:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:30:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:30:05 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:30:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:30:07 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 16:30:31 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 16:30:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:30:39 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:30:39 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:30:39 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:31:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:31:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:31:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:31:25 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:32:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 16:32:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:32:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:32:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:33:40 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:33:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:33:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:33:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:33:43 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:33:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:33:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:33:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:33:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:33: 
+Cannot rewrite recursive call: it is not in tail position
+        else sortedList.head :: insertSorted(element = element, sortedList = sortedList.tail)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:34:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:33: 
+Cannot rewrite recursive call: it is not in tail position
+        else sortedList.head :: insertSorted(element = element, sortedList = sortedList.tail)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:34:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:33: 
+Cannot rewrite recursive call: it is not in tail position
+        else sortedList.head :: insertSorted(element = element, sortedList = sortedList.tail)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:34:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:18:33: 
+Cannot rewrite recursive call: it is not in tail position
+        else sortedList.head :: insertSorted(element = element, sortedList = sortedList.tail)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2023.03.04 16:34:08 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+2023.03.04 16:34:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:34:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:34:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:34:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:34:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:34:32 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:35:48 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:38:21 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:38:21 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:38:25 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:40:58 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:43:27 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+Mar 04, 2023 4:44:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4357
+2023.03.04 16:45:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:45:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:45:18 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:45:29 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:45:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:45:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:47:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:47:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:47:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:47:47 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:47:55 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:47:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:47:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:47:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+2023.03.04 16:47:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 16:47:59 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:48:01 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:51:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:51:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+2023.03.04 16:51:04 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 16:51:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.14s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:22: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortWith(Ordered.Int)
+                     ^^^^^^^^^^^
+2023.03.04 17:14:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 93ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:22: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortWith(Ordered.Int)
+                     ^^^^^^^^^^^
+2023.03.04 17:14:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 97ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:22: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortWith(Ordered.Int)
+                     ^^^^^^^^^^^
+2023.03.04 17:14:17 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 90ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:22: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortWith(Ordered.Int)
+                     ^^^^^^^^^^^
+2023.03.04 17:14:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 84ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:20: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortBy(Ordered.Int)
+                   ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:31: 
+Ambiguous given instances: both object Char in object Ordering and object DeprecatedFloatOrdering in object Ordering match type Ordering[Any] of parameter ord of method sortBy in trait SeqOps
+List(1,4,3).sortBy(Ordered.Int)
+                              ^
+2023.03.04 17:14:28 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:20: 
+value Int is not a member of object scala.math.Ordered
+List(1,4,3).sortBy(Ordered.Int)
+                   ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:37:31: 
+Ambiguous given instances: both object Char in object Ordering and object DeprecatedFloatOrdering in object Ordering match type Ordering[Any] of parameter ord of method sortBy in trait SeqOps
+List(1,4,3).sortBy(Ordered.Int)
+                              ^
+2023.03.04 17:14:28 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:14:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 89ms
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:14:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 96ms
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:15:01 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 88ms
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:15:01 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:15:03 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 87ms
+[31merror[39m: 
+sortingExamples.worksheet.sc:40 (mdoc generated code) 
+ missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+      l.sortBy()
+
+
+2023.03.04 17:15:03 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:38:15: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+val sortedL = l.sortBy()
+              ^^^^^^^^^^
+2023.03.04 17:15:13 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 96ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:38:15: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+val sortedL = list.sortBy()
+              ^^^^^^^^^^^^^
+2023.03.04 17:15:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 92ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:38:15: 
+missing argument for parameter f of method sortBy in trait SeqOps: (f: Int => Any)(implicit ord: Ordering[Any]): List[Int]
+val sortedL = list.sortBy()
+              ^^^^^^^^^^^^^
+2023.03.04 17:15:23 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 89ms
+2023.03.04 17:16:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:16:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:16:19 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:34: 
+value Int is not a member of object scala.math.Ordered
+val sortedList = list.sortBy(f = Ordered.Int)
+                                 ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:45: 
+Ambiguous given instances: both object Char in object Ordering and object DeprecatedFloatOrdering in object Ordering match type Ordering[Any] of parameter ord of method sortBy in trait SeqOps
+val sortedList = list.sortBy(f = Ordered.Int)
+                                            ^
+2023.03.04 17:16:54 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 93ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:34: 
+value Int is not a member of object scala.math.Ordered
+val sortedList = list.sortBy(f = Ordered.Int)
+                                 ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:45: 
+Ambiguous given instances: both object Char in object Ordering and object DeprecatedFloatOrdering in object Ordering match type Ordering[Any] of parameter ord of method sortBy in trait SeqOps
+val sortedList = list.sortBy(f = Ordered.Int)
+                                            ^
+2023.03.04 17:16:54 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:34: illegal start of simple expression
+val sortedList = list.sortBy(f = )
+                                 ^
+2023.03.04 17:16:59 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+Not found: sort
+sort(list)
+^^^^
+2023.03.04 17:17:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 95ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+Not found: sort
+sort(list)
+^^^^
+2023.03.04 17:17:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 84ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+Not found: sort
+sort(list)(Ordered.Int)
+^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:12: 
+value Int is not a member of object scala.math.Ordered
+sort(list)(Ordered.Int)
+           ^^^^^^^^^^^
+2023.03.04 17:17:26 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 97ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+Not found: sort
+sort(list)(Ordered.Int)
+^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:12: 
+value Int is not a member of object scala.math.Ordered
+sort(list)(Ordered.Int)
+           ^^^^^^^^^^^
+2023.03.04 17:17:26 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+value sort is not a member of math
+scala.math.sort(list)(Ordered.Int)
+^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:23: 
+value Int is not a member of object scala.math.Ordered
+scala.math.sort(list)(Ordered.Int)
+                      ^^^^^^^^^^^
+2023.03.04 17:17:37 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 93ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:1: 
+value sort is not a member of math
+scala.math.sort(list)(Ordered.Int)
+^^^^^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:23: 
+value Int is not a member of object scala.math.Ordered
+scala.math.sort(list)(Ordered.Int)
+                      ^^^^^^^^^^^
+2023.03.04 17:17:38 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.1s
+2023.03.04 17:18:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.15s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:5: 
+Double definition:
+val sortedList: List[Int] in class MdocApp at line 39 and
+val sortedList: List[Int] in class MdocApp at line 43
+
+val sortedList = list.sortWith(_ > _)
+    ^
+2023.03.04 17:18:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 89ms
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:39:5: 
+Double definition:
+val sortedList: List[Int] in class MdocApp at line 39 and
+val sortedList: List[Int] in class MdocApp at line 43
+
+val sortedList = list.sortWith(_ > _)
+    ^
+2023.03.04 17:18:51 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 98ms
+2023.03.04 17:18:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:18:56 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 17:19:03 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.16s
+2023.03.04 17:19:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:19:30 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:19:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:19:35 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.17s
+2023.03.04 17:19:36 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.19s
+2023.03.04 17:19:37 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.22s
+2023.03.04 17:19:37 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 17:20:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 17:20:14 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
+2023.03.04 17:20:24 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.23s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:49: 
+value Int is not a member of object scala.math.Ordered
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+                                                ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:5: 
+Double definition:
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 51 and
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 55
+
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+    ^
+2023.03.04 17:20:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:49: 
+value Int is not a member of object scala.math.Ordered
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+                                                ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:5: 
+Double definition:
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 51 and
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 55
+
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+    ^
+2023.03.04 17:20:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.11s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:49: 
+value Int is not a member of object scala.math.Ordered
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+                                                ^^^^^^^^^^^
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:5: 
+Double definition:
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 51 and
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 55
+
+val sortedListWithSortedFunctioon = list.sorted(Ordered.Int)
+    ^
+2023.03.04 17:20:33 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:5: 
+Double definition:
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 51 and
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 55
+
+val sortedListWithSortedFunctioon = list.sorted
+    ^
+2023.03.04 17:20:39 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.12s
+[31merror[39m: src/main/scala/sortingExamples.worksheet.sc:42:5: 
+Double definition:
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 51 and
+val sortedListWithSortedFunctioon: List[Int] in class MdocApp at line 55
+
+val sortedListWithSortedFunctioon = list.sorted
+    ^
+2023.03.04 17:20:39 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.13s
+2023.03.04 17:20:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.27s
+2023.03.04 17:20:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
+2023.03.04 17:20:42 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.2s
+2023.03.04 17:20:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.24s
+2023.03.04 17:20:46 INFO  time: evaluated worksheet 'sortingExamples.worksheet.sc' in 0.18s
